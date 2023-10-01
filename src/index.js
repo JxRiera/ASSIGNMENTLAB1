@@ -13,19 +13,27 @@ app.get('/', (req, res) => {
 });
 
 app.get('/aboutme', (req, res) => {
-    res.render("views/about");
+    res.render("about", {
+        title: "About me",
+    });
 });
 
 app.get('/contactme', (req, res) => {
-    res.render("views/contact");
+    res.render("contact", {
+        title: "Contact me",
+    });
 });
 
 app.get('/projects', (req, res) => {
-    res.render("views/projects");
+    res.render("projects", {
+        title: "My projects",
+    });
 });
 
 app.get('/services', (req, res) => {
-    res.render("views/services");
+    res.render("services", {
+        title: "My services",
+    });
 });
 
 app.listen("3000");
