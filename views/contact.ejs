@@ -1,9 +1,39 @@
 <head>
     <%- include("partials/header"); %>
+    <script src="javascript/contactform.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="css/contact.css" /> <!--Link for the CSS specific por the contact page-->
 </head>
 <body>
     <%- include("partials/content"); %>
 
+    <section class="panel">
+            <h2>My Contact Information</h2>
+            <p>Email: jxrieradufflar@hotmail.com</p>
+            <p>Contact Number: 647-551-8154</p>
+            <p>Address: 500 Borough Drive Scarborough, ON M1P 4P5 </p>
+    </section>
+
+    <!-- premade contact form found in youtube video "Contact Form with HTML, CSS, and JavaScript" -->
+    <section class="contact-form">
+        <h2>Send me a message</h2>
+        <form onsubmit="submitForm(event)">
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" name="fname" required><br><br>
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" name="lname" required><br><br>
+            <label for="contactNumber">Contact Number:</label>
+            <input type="tel" id="contactNumber" name="contactNumber" required><br><br>
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="2" cols="40" required></textarea><br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+
+
+    
     <%- include("partials/footer"); %>
     
 </body>

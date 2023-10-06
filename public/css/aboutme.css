@@ -39,3 +39,12 @@ header h1 {
     font-size: 1.2em;
     line-height: 1.6;
 }
+
+.about a {
+    color: black;
+}
+
+.about a:hover {
+    color: red;
+    font-size: 125%;
+}

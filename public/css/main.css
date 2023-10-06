@@ -36,7 +36,7 @@ section {
 
 .welcome a:hover {
     color: #0056b3; 
-    transform: scale(1.1); 
+    font-size: 125%;
 }
 
 .mission-statement {
@@ -51,33 +51,4 @@ section {
 .mission-statement p {
     font-size: 1.2em;
     margin-bottom: 20px;
-}
-
-.projects {
-    text-align: center;
-}
-
-.projects h2 {
-    font-size: 1.5em;
-    margin-bottom: 10px;
-}
-
-.project {
-    margin-bottom: 30px;
-    text-align: left;
-}
-
-.project img {
-    max-width: 100%;
-    border-radius: 5px;
-}
-
-.project h3 {
-    font-size: 1.2em;
-    margin-top: 10px;
-    margin-bottom: 5px;
-}
-
-.project p {
-    font-size: 1em;
 }
