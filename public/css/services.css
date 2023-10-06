@@ -1,3 +1,5 @@
+/* services.css, Jose Riera, 301284455, October 6, 2023 */
+
 h2 {
     text-align: center;
     font-size: 2em;
@@ -7,6 +9,7 @@ h2 {
 }
 
 
+/* Services part of the code */
 .services {
     display: flex;
     flex-wrap: wrap;

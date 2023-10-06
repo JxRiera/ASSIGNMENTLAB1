@@ -37,6 +37,7 @@ app.get('/services', (req, res) => {
     });
 });
 
+// Port listener, also log in the console so I know its working 
 app.listen("3000", () => {
     console.log("TURNED ON SUCCESSFULLY");
 });

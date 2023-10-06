@@ -1,3 +1,7 @@
+/* main.css, Jose Riera, 301284455, October 6, 2023 */
+
+
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -9,6 +13,7 @@ section {
     margin: 20px;
 }
 
+/* CSS code for the welcome section. */
 .welcome {
     text-align: center;
 }
@@ -39,6 +44,7 @@ section {
     font-size: 125%;
 }
 
+/* CSS code for the mission statement section. */
 .mission-statement {
     text-align: center;
 }

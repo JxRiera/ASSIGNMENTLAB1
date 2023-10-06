@@ -1,3 +1,5 @@
+/* projects.css, Jose Riera, 301284455, October 6, 2023 */
+
 .projects {
     display: flex;
     flex-wrap: wrap;
@@ -36,6 +38,9 @@
     line-height: 1.6;
 }
 
+
+
+/* Text outside the sections, basically disclaimers, both of them. */
 .textodisc {
     text-align: center;
     font-size: 25px;

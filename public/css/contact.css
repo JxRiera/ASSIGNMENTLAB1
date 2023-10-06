@@ -1,20 +1,22 @@
-/* Styles for the panel */
+/* contact.css, Jose Riera, 301284455, October 6, 2023 */
+
+/* Panel part of the CSS */
 .panel {
     border: 2px solid #ccc;
     border-radius: 10px;
     padding: 20px;
     max-width: 600px;
     text-align: center;
-    float: left; /* Align panel to the left */
-    margin-right: 800px; /* Add margin to the right side of the panel */
+    float: left; 
+    margin-right: 800px;
     margin-left: 20px; 
 }
 
-/* Styles for the form */
+/* Form CSS code */
 .contact-form {
     max-width: 600px;
-    margin-left: 20px; /* Add some space between panel and form */
-    overflow: hidden; /* Clear the float */
+    margin-left: 20px; 
+    overflow: hidden; 
 }
 
 .contact-info h2 {

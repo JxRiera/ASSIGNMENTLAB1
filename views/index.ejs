@@ -1,22 +1,28 @@
 <head>
+    <!-- import partial -->
     <%- include("partials/header"); %>
     <link rel="stylesheet" type="text/css" href="css/main.css" /> <!--Link for the CSS specific por the main page-->
 </head>
 <body>
+    <!-- import partial -->
     <%- include("partials/content"); %>
     
+    <!-- Simple welcome message and trying to not make the main page empty -->
     <section class="welcome">
         <h1>Welcome to Jose's Portfolio</h1>
         <p>Explore my work and projects in my personal portfolio website! :)</p>
         <a href="/aboutme">Learn More About Me</a>
     </section>
 
+    <!-- The mission statement suggested -->
     <section class="mission-statement">
         <h2>Mission Statement</h2>
-        <p>My mission is to become serve my clients to the best of my abilities.</p>
+        <p>My mission is to serve my clients to the best of my abilities.</p>
 
+        <!-- A picture, to make it look good ig -->
     <img src="images/computer.jpg">
 
+    <!-- import partial -->
     <%- include("partials/footer"); %>
     
 </body>
