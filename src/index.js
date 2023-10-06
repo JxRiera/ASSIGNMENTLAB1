@@ -6,6 +6,7 @@ app.set("view engine", "ejs");
 //Line of code found on StackOverflow (Had some problems with linking CSS File)
 app.use(express.static('public'));
 
+/* GET for the pages */
 app.get('/', (req, res) => {
     res.render("index", {
         title: "Main page",
@@ -36,4 +37,6 @@ app.get('/services', (req, res) => {
     });
 });
 
-app.listen("3000");
+app.listen("3000", () => {
+    console.log("TURNED ON SUCCESSFULLY");
+});

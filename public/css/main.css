@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffff;
+}
+
+section {
+    margin: 20px;
+}
+
+.welcome {
+    text-align: center;
+}
+
+.welcome h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.welcome p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.welcome a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: transparent; 
+    color: #007bff; 
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    transition: color 0.3s;
+}
+
+.welcome a:hover {
+    color: #0056b3; 
+    transform: scale(1.1); 
+}
+
+.mission-statement {
+    text-align: center;
+}
+
+.mission-statement h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.mission-statement p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.projects {
+    text-align: center;
+}
+
+.projects h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.project {
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.project img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.project h3 {
+    font-size: 1.2em;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.project p {
+    font-size: 1em;
+}
